@@ -265,6 +265,21 @@ python train.py --sparsity 0.7  # 70% sparsity
 python evaluate.py --model-path checkpoints/best_model.pth
 ```
 
+## 👤 Author
 
+**Romana Qureshi**  
+*Graduate Student, Artificial Intelligence*  
+College of Computer and Information Sciences  
+King Saud University
+
+Research interests:
+- Efficient Transformer Architectures
+- Computer Vision and Natural Language Processing
+- Low-Resource Deep Learning
+
+Connect with me:
+- [GitHub](https://github.com/qu-romana)
+- [LinkedIn](https://linkedin.com/in/romanaqureshi1613)
+- Email: rq.romana@gmail.com
 ---
 

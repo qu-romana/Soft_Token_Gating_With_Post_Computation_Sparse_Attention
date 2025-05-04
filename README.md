@@ -42,15 +42,20 @@ This **first-of-its-kind integration** enables the BLIP model to converge in jus
 ## 📂 Repository Structure
 
 This repository contains our implementation of Soft Token Gating with Post-Computation Sparse Attention in a series of Jupyter notebooks:
-📁 Soft_TokenGating_With_Post_Computation_Sparse_Attention/
-├── 01_Main_Train_val_test_TokenGating_And_Sparse_Attention8Epochs.ipynb  # Main implementation with 8 epochs
-├── 02_Main_7epochs_Train_val_test_TokenGating_And_SparseAttention.ipynb  # Variant with 7 epochs
-├── 03_Main_Token_gating_And_Sparse_Attention_Train_Val_Test10epochs.ipynb # Variant with 10 epochs
-├── 04_20Epochs_Main_Token_Gating_And_Sparse_Attention.ipynb              # Extended training for 20 epochs
-├── 05_Main_TokenGating_sparsity=0_5.ipynb                                # Implementation with 50% sparsity
-├── 06_WithoutSparsity.ipynb                                              # Ablation study without sparsity
-└── README.md                                                             # Project documentation
+### Notebook Descriptions
 
+- **01_Main_Train_val_test_TokenGating_And_Sparse_Attention8Epochs.ipynb**: Our primary implementation with 8 epochs of training, containing the complete implementation of soft token gating and post-computation sparse attention with a sparsity factor of 0.7.
+
+- **02_Main_7epochs_Train_val_test_TokenGating_And_SparseAttention.ipynb**: Variant implementation with 7 epochs to analyze convergence behavior.
+
+- **03_Main_Token_gating_And_Sparse_Attention_Train_Val_Test10epochs.ipynb**: Extended training to 10 epochs to verify performance plateau.
+
+- **04_20Epochs_Main_Token_Gating_And_Sparse_Attention.ipynb**: Long-term training experiment with 20 epochs to ensure no performance gains are missed with longer training.
+
+- **05_Main_TokenGating_sparsity=0_5.ipynb**: Ablation study with 50% sparsity to compare with our standard 70% setting.
+
+- **06_WithoutSparsity.ipynb**: Control experiment with soft token gating but without sparse attention (0% sparsity) to isolate the contribution of each component.
+  
 ## 🔬 Novel Contributions
 
 Our work makes several key contributions to efficient transformer-based image captioning:
